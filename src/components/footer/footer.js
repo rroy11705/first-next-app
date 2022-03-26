@@ -16,7 +16,7 @@ export default function Footer() {
             <nav>
               {data.menuItems.map((item, i) => (
                 <Link 
-                  key={item.id} 
+                  key={i} 
                   path={item.path}
                   label={item.label}
                   sx={styles.footer.link}

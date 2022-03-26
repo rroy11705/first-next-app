@@ -30,10 +30,10 @@ const styles = {
       fontSize: 40,
       cursor: 'pointer',
       px: '2px',
-      color: '#BBC7D7',
+      color: 'text',
       transition: 'all 0.25s',
       '&:hover': {
-        color: 'text',
+        color: '#BBC7D7',
       },
       '&:focus': {
         outline: 0,
